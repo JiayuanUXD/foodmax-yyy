@@ -1,0 +1,4 @@
+html,body,#root{margin:0;min-height:100%;background:#fff}
+body{margin:0}
+#root{width:100%;max-width:375px;margin-inline:auto}
+/* Add page composition only. Use --ds-* tokens; keep component internals in the library. */

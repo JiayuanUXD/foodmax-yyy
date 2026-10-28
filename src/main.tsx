@@ -1,0 +1,10 @@
+import React from 'react';
+import {createRoot} from 'react-dom/client';
+import 'keenmart-ui-kit/styles.css';
+import 'keenmart-ui-kit/fonts.css';
+import {LocaleProvider} from 'keenmart-ui-kit';
+import App from './App';
+import {pageConfig} from './page-config';
+import './page.css';
+document.documentElement.lang=pageConfig.locale;
+createRoot(document.getElementById('root')!).render(<LocaleProvider locale={pageConfig.locale}><App/></LocaleProvider>);

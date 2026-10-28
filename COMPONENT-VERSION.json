@@ -1,0 +1,12 @@
+{
+  "package": "keenmart-ui-kit",
+  "version": "0.1.0",
+  "source": "npm",
+  "registry": "https://registry.npmjs.org/",
+  "published": true,
+  "reviewSystemBranch": "main",
+  "pageTemplateBranch": "page-starter",
+  "localeDefault": "zh-CN",
+  "updated": "2026-10-28",
+  "integrity": "sha512-h2KF0WbyLv9DV/V1M3D2NnmbyIX/D7pt7pjB0pLM18mIGK8a61dkzB9GSIhr4/HtbnoYqNfFz6fi0qDLgZrWlQ=="
+}
