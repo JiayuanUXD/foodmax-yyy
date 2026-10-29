@@ -5,8 +5,9 @@
   "registry": "https://registry.npmjs.org/",
   "published": true,
   "reviewSystemBranch": "main",
-  "pageTemplateBranch": "page-starter",
+  "pageTemplateBranch": "main",
   "localeDefault": "zh-CN",
-  "updated": "2026-10-28",
-  "integrity": "sha512-h2KF0WbyLv9DV/V1M3D2NnmbyIX/D7pt7pjB0pLM18mIGK8a61dkzB9GSIhr4/HtbnoYqNfFz6fi0qDLgZrWlQ=="
+  "updated": "2026-10-29",
+  "integrity": "sha512-h2KF0WbyLv9DV/V1M3D2NnmbyIX/D7pt7pjB0pLM18mIGK8a61dkzB9GSIhr4/HtbnoYqNfFz6fi0qDLgZrWlQ==",
+  "pageTemplateRepository": "JiayuanUXD/foodmax-yyy"
 }

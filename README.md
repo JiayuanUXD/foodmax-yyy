@@ -11,7 +11,7 @@ npm run dev
 
 ## Figma Code Layer
 
-选择 keenmart-ui 仓库的 **page-starter 分支**作为 code source；main 分支保留组件管理系统。Figma 的 Clone repository 窗口支持选择分支，请务必切换后再 Clone。安装命令 npm ci，开发命令 npm run dev，构建 npm run build。打开后是空白页面，直接向 Figma agent 发送：
+选择 JiayuanUXD/foodmax-yyy 仓库的 **main 分支**作为 code source。这个仓库只包含产品页面模板，默认首页为空白。安装命令 npm ci，开发命令 npm run dev，构建 npm run build。打开后是空白页面，直接向 Figma agent 发送：
 
 > 先阅读 AGENTS.md 和 guidelines 四份规范，使用 keenmart-ui-kit 的真实组件生成【页面需求】。先列出模块与组件映射，再修改 src/App.tsx，中文页面设置 zh-CN。生成后运行 npm run check 并在预览中检查间距、字体、价格和交互。不要生成组件管理界面。
 
@@ -38,7 +38,7 @@ npm run check:design 检查导入、字体覆盖和新增的裸色值/间距；n
 
 ## Git 同步
 
-维护系统使用 main 分支，产品页面模板使用 page-starter 分支，两者入口独立。page-starter 是独立目录结构，不要把它合并到 main。每个产品页面建议在 Figma 再建立自己的工作分支。
+本仓库 main 分支用于维护页面模板。组件管理系统保留在 malinbushiren/keenmart-ui 仓库；组件实现通过公开 npm 包引用。每个产品页面建议在 Figma 建立自己的工作分支，模板更新需主动拉取并检查冲突。
 
 ## 可复制的提示词与字体验收
 
