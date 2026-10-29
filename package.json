@@ -9,7 +9,8 @@
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview --host 0.0.0.0",
     "check": "npm run check:design && npm run build",
-    "check:design": "node scripts/check-design.mjs"
+    "check:design": "node scripts/check-design.mjs",
+    "components:update": "node scripts/update-components.mjs"
   },
   "dependencies": {
     "keenmart-ui-kit": "0.1.0",
